@@ -65,7 +65,7 @@ exotel.token = asd7dfg87dfg8dsugf8s9df7s89f7s89df7df #Example
 ***
 ### Close
 
-Once you have finished sending SMS / calls using the `exotel` object, you need to close the connection by calling 
+Once you have finished sending SMS / calls using the `exotel` object, you need to close the connection by calling
 
 ```python
 exotel.bye()
@@ -221,7 +221,7 @@ Add the details of your SMS to this object. Example values have been show below
 
 ```python
 sms.from_num = '8088919888' #One of your Exophones
-sms.to = '0987654321' 
+sms.to = '0987654321'
 sms.body = 'Hello from Exotel!' #Don't worry about encoding. ASCII or Unicode will do.
 ```
 Apart from the above mandatory details, you can provide some more additional details like below
@@ -268,9 +268,9 @@ Individually:
 
 ```python
 sms.sid #SMS ID. (Not available until send() is called)
-sms.from_num 
+sms.from_num
 sms.to
-sms.body 
+sms.body
 sms.priority
 sms.status_callback
 sms.status #Status of the sent SMS. (Not available until send() is called)
